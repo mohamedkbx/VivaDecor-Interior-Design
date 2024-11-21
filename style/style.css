@@ -294,3 +294,54 @@ body {
   border-bottom: none;
   border-radius: 4px;
 }
+.newsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter__content {
+  max-width: 97.9rem;
+  width: 100%;
+  gap: 4rem;
+}
+.newsletter__form {
+  max-width: 97.9rem;
+  width: 100%;
+  justify-content: center;
+  border: 1rem solid var(--color-white);
+  box-shadow: 0px 10px 100px 0px #00000024;
+  position: relative;
+}
+.custom-input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding-left: 9rem;
+}
+.custom-input::placeholder {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.905rem;
+  color: #929292;
+}
+.input-icon {
+  position: absolute;
+  left: 4rem;
+  top: 1rem;
+}
+.newsletter__text {
+  width: 85%;
+}
+.newsletter-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3.965rem;
+  text-align: center;
+  color: var(--color-gray);
+  margin-top: 5rem;
+  padding: 0 8rem;
+}
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
