@@ -172,10 +172,7 @@ body {
   line-height: 7.019rem;
   text-align: left;
 }
-.services__heading {
-  display: flex;
-  align-items: center;
-}
+
 .dash {
   display: inline-block;
   width: 10rem;
