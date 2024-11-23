@@ -369,6 +369,7 @@ body {
     flex-direction: column;
     padding: 2rem;
     border: 0.3rem solid var(--color-white);
+    margin-bottom: 0;
   }
 
   .custom-input {
