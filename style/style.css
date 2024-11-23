@@ -289,6 +289,26 @@ body {
   border-bottom: none;
   border-radius: 4px;
 }
+@media (max-width: 970px) {
+  .testemonials__cards {
+    bottom: 10%;
+  }
+  .card {
+    width: 40rem;
+    height: 40rem;
+    background-color: var(--color-black);
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--color-white);
+  }
+  .card-border {
+    border: 7px solid var(--color-white);
+  }
+}
+
 .newsletter {
   display: flex;
   justify-content: center;
