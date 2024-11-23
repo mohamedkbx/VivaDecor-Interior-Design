@@ -1,0 +1,40 @@
+/* Utility classes */
+.section-padding {
+  padding: 13.3rem 0;
+}
+.global-padding {
+  padding: 0 10.6rem;
+}
+
+.primary-heading {
+  font-size: 12.3rem;
+  font-weight: 500;
+  line-height: 16.096rem;
+  text-align: left;
+  color: var(--color-black);
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+/* custom btn */
+.custom-btn {
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-size: 2rem;
+  padding: 1rem 2.5rem;
+  font-weight: 400;
+  line-height: 2.42rem;
+  border-radius: 4px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.padding-bottom {
+  padding-bottom: 13.3rem;
+}
+.secondary-heading {
+  font-size: 5.8rem;
+  font-weight: 600;
+  line-height: 7.019rem;
+  text-align: left;
+}

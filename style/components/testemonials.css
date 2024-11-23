@@ -1,0 +1,49 @@
+.testemonials__content {
+  position: relative;
+}
+.testemonials__cards {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.card {
+  width: 54rem;
+  height: 49rem;
+  background-color: var(--color-black);
+  padding: 5rem 3rem 7rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  color: var(--color-white);
+}
+
+.card-description {
+  font-family: Inter;
+  width: 90%;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.author-name {
+  font-family: Inter;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.905rem;
+}
+.author-role {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2.42rem;
+  color: #929292;
+}
+.card-border {
+  border: 3rem solid var(--color-white);
+  border-right: none;
+  border-bottom: none;
+  border-radius: 4px;
+}

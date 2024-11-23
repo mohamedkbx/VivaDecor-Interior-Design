@@ -1,0 +1,18 @@
+/* navbar span */
+.navbar-nav {
+  color: var(--color-gray);
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.navbar-toggler-icon {
+  width: 3.5rem;
+  height: 2.5rem;
+}
+
+/* Sidebar */
+#offcanvasNavbarLabel {
+  font-size: 2rem;
+  color: var(--color-black);
+}

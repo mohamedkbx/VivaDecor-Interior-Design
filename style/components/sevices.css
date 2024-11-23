@@ -1,0 +1,21 @@
+.dash {
+  display: inline-block;
+  width: 10rem;
+  border-top: 3px solid var(--color-black);
+  margin-right: 2rem;
+}
+
+.card-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.631rem;
+  text-align: left;
+}
+
+.card-paragraph {
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 2.9rem;
+  text-align: left;
+  color: var(--color-gray);
+}
